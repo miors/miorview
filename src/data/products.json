@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Front Door Camera",
+    "category": "camera",
+    "message": "Recording - last motion 1 minute ago",
+    "status": false,
+    "image": "/product_images/image.png"
+  },
+  {
+    "id": 2,
+    "name": "Back Door Camera",
+    "category": "camera",
+    "message": "Idle",
+    "status": true,
+    "image": "/product_images/inverted-jenny.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Front Door",
+    "category": "sensor",
+    "message": "active",
+    "status": true,
+    "image": "/product_images/stamp.png"
+  }
+]
