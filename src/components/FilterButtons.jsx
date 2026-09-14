@@ -13,13 +13,13 @@ const FilterButtons = () => {
   // Local state to keep track of the currently active filter group
   const [activeFilter, setActiveFilter] = useState("All");
 
-  function handleFilter(device) {
-    setActiveFilter(device);
-    if (device.toLowerCase() === "all") {
+  function handleFilter(filter) {
+    setActiveFilter(filter);
+    if (filter.toLowerCase() === "all") {
       authContext.setProducts(authContext.jsonProds);
     } else {
       const filteredDevices = authContext.jsonProds.filter(
-        (p) => p.category === device.toLowerCase(),
+        (p) => p.category === filter.toLowerCase(),
       );
       authContext.setProducts(filteredDevices);
     }
