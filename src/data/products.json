@@ -4,23 +4,31 @@
     "name": "Front Door Camera",
     "category": "camera",
     "message": "Recording - last motion 1 minute ago",
-    "status": false,
-    "image": "/product_images/image.png"
+    "status": "online",
+    "image": "/product_images/1.jpg"
   },
   {
     "id": 2,
     "name": "Back Door Camera",
     "category": "camera",
     "message": "Idle",
-    "status": true,
-    "image": "/product_images/inverted-jenny.jpg"
+    "status": "active",
+    "image": "/product_images/2.jpg"
   },
   {
     "id": 3,
-    "name": "Front Door",
+    "name": "Front Door Sensor",
     "category": "sensor",
     "message": "active",
-    "status": true,
-    "image": "/product_images/stamp.png"
+    "status": "online",
+    "image": "/product_images/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Frontyard Window",
+    "category": "window",
+    "message": "updating",
+    "status": "offline",
+    "image": "/product_images/4.jpg"
   }
 ]
