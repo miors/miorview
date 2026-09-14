@@ -1,11 +1,11 @@
-#Miorview's Home Security System
+#Miorview's Home Security System<br />
 
-Features:
+Features:<br />
 
-List security devices
-Sort devices according to categories
-Routing
-Login
+List security devices<br />
+Sort devices according to categories<br />
+Routing<br />
+Login<br />
 
 Screenshots:
 
